@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>В разработке | Legko Ozelenim</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #0a0f0d, #1c1f26, #0d1b12);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      background: linear-gradient(90deg, #56ab2f, #a8e063);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeInDown 1.2s ease;
+    }
+
+    p {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+      color: #ddd;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    .btn-home {
+      display: inline-block;
+      padding: 15px 40px;
+      background: linear-gradient(90deg, #56ab2f, #a8e063);
+      color: #0a0f0d;
+      font-weight: bold;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(86, 171, 47, 0.4);
+      transition: all 0.3s ease;
+      animation: fadeInUp 1.6s ease;
+    }
+
+    .btn-home:hover {
+      background: linear-gradient(90deg, #a8e063, #56ab2f);
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 12px 25px rgba(168, 224, 99, 0.5);
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Декоративные частицы на фоне */
+    .bg-particles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .particle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: rgba(168, 224, 99, 0.8);
+      border-radius: 50%;
+      animation: float 8s infinite;
+    }
+
+    @keyframes float {
+      from { transform: translateY(100vh) scale(0); opacity: 0; }
+      50% { opacity: 1; }
+      to { transform: translateY(-10vh) scale(1); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-particles">
+    <div class="particle" style="left: 10%; animation-duration: 6s;"></div>
+    <div class="particle" style="left: 30%; animation-duration: 8s;"></div>
+    <div class="particle" style="left: 50%; animation-duration: 10s;"></div>
+    <div class="particle" style="left: 70%; animation-duration: 7s;"></div>
+    <div class="particle" style="left: 90%; animation-duration: 9s;"></div>
+  </div>
+
+  <h1>Функция в разработке</h1>
+  <p>Мы работаем над этой страницей, чтобы сделать её максимально удобной и красивой.</p>
+  <a href="index.html" class="btn-home">На главную</a>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legko Ozelenim - Блог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка (такая же как в index.html) -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-text">
+                    <span>Legko</span> <span>Ozelenim</span>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn">☰</button>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </div>
+    </header>
+    <main id="blog-page">
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Наш блог</h2>
+                
+                <!-- Сетка статей блога -->
+                <div class="blog-grid">
+                    <!-- Пример статьи -->
+                    <div class="card blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Уход за растениями">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">15 октября 2023</div>
+                            <h3 class="blog-title">Как правильно ухаживать за комнатными растениями зимой</h3>
+                            <p class="blog-excerpt">Зимой комнатные растения требуют особого ухода. В этой статье мы расскажем о главных правилах заботы о ваших зеленых питомцах в холодное время года.</p>
+                            <a href="#" class="btn">Читать далее</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Другие статьи -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+        <footer id="contacts">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>О нас</h3>
+                <p>Legko Ozelenim - компания, специализирующаяся на создании уникальных зеленых пространств для дома и офиса. Мы делаем города greener с 2010 года.</p>
+            </div>
+            <div class="footer-section footer-contact">
+                <h3>Контакты</h3>
+                <p><i>📍</i> г. Москва, ул. Зеленая, д. 42</p>
+                <p><i>📞</i> +7 (495) 123-45-67</p>
+                <p><i>✉️</i> info@legko-ozelenim.ru</p>
+                <div class="footer-social">
+                    <a href="#"><i>📱</i></a>
+                    <a href="#"><i>💬</i></a>
+                    <a href="#"><i>📷</i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Часы работы</h3>
+                <p>Пн-Пт: 9:00 - 20:00</p>
+                <p>Сб: 10:00 - 18:00</p>
+                <p>Вс: выходной</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Legko Ozelenim. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

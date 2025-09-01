@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legko Ozelenim - Главная</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-text">
+                    <span>Legko</span> <span>Ozelenim</span>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn">☰</button>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="demo.html">Каталог</a></li>
+                    <li><a href="demo.html">Блог</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="demo.html">Для админов</a></li>
+                </ul>
+            </nav>
+            
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </div>
+    </header>
+
+    <!-- Главная страница -->
+    <main id="home-page">
+
+        <!-- Герой секция -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Legko Ozelenim</h1>
+                <p class="hero-subtitle">Создаем уникальные зеленые пространства с заботой о природе</p>
+                <a href="demo.html" class="btn">Посмотреть каталог</a>
+                <a href="https://wa.me/77761383956?text=Здравствуйте,%20нужна%20расценка%20товаров,%20хочу%20заказать%20озеленение" 
+   target="_blank" class="whatsapp-float">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="22" fill="currentColor">
+    <path d="M16 .4C7.3.4.1 7.6.1 16.2c0 2.8.7 5.5 2 7.9L0 32l8.2-2.1c2.3 1.3 4.9 2 7.8 2 8.7 0 15.9-7.2 15.9-15.8C32 7.6 24.8.4 16 .4zm0 28.8c-2.5 0-4.9-.7-7-2l-.5-.3-4.9 1.3 1.3-4.8-.3-.5c-1.3-2.1-2-4.6-2-7.1C2.6 9.1 8.6 3.2 16 3.2c7.4 0 13.4 6 13.4 13.4 0 7.3-6 12.6-13.4 12.6zm7.3-9.5c-.4-.2-2.2-1.1-2.5-1.3-.3-.1-.6-.2-.9.2s-1 1.3-1.3 1.5c-.2.2-.5.3-.9.1s-1.8-.7-3.4-2.2c-1.3-1.2-2.2-2.7-2.4-3.1-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7s-.9-2.3-1.2-3.2c-.3-.8-.6-.7-.9-.7h-.8c-.3 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.2s1.3 3.7 1.5 4c.2.3 2.6 4.1 6.3 5.7.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.4-.3-.8-.5z"/>
+  </svg>
+  <span class="desktop-text">Написать на WhatsApp</span>
+  <span class="mobile-text">Связаться</span>
+</a>
+
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section class="section services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services-grid">
+                    <div class="card service-card">
+                        <div class="service-icon">🌿</div>
+                        <h3 class="service-title">Озеленение интерьеров</h3>
+                        <p>Создаем уникальные зеленые зоны в вашем помещении, подбираем растения и обеспечиваем уход за ними.</p>
+                    </div>
+                    <div class="card service-card">
+                        <div class="service-icon">🏢</div>
+                        <h3 class="service-title">Вертикальное озеленение</h3>
+                        <p>Преобразуем стены в живые произведения искусства с помощью современных технологий озеленения.</p>
+                    </div>
+                    <div class="card service-card">
+                        <div class="service-icon">🌳</div>
+                        <h3 class="service-title">Фитодизайн</h3>
+                        <p>Разрабатываем индивидуальные проекты озеленения, учитывая стиль помещения и ваши предпочтения.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonials" id="testimonials">
+                        <div class="testimonial">
+                            <p class="testimonial-text">Заказывал озеленение офиса. Результат превзошел все ожидания! Растения подобраны идеально, уход осуществляется регулярно. Клиенты отмечают уютную атмосферу.</p>
+                            <p class="testimonial-author">— Иван Петров, директор компании "ТехноПро"</p>
+                        </div>
+                        <div class="testimonial">
+                            <p class="testimonial-text">Спасибо команде Legko Ozelenim за создание прекрасного фитостена в нашем ресторане! Это стало главным элементом интерьера и предметом восхищения гостей.</p>
+                            <p class="testimonial-author">— Елена Смирнова, владелец ресторана "Зеленая Лоза"</p>
+                        </div>
+                        <div class="testimonial">
+                            <p class="testimonial-text">Профессиональный подход, качественные растения и прекрасный результат! Мы очень довольны озеленением нашего торгового центра.</p>
+                            <p class="testimonial-author">— Андрей Козлов, управляющий ТЦ "Европа"</p>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <div class="slider-dot active" data-index="0"></div>
+                        <div class="slider-dot" data-index="1"></div>
+                        <div class="slider-dot" data-index="2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Галерея выполненных работ -->
+        <section class="section gallery">
+            <div class="container">
+                <h2 class="section-title">Наши работы</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1581993192008-63fd1ea7de1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Интерьерное озеленение">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1590065480004-477ef6d4d5de?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Вертикальное озеленение">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Офисное озеленение">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Фитостена">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer id="contacts">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>О нас</h3>
+                <p>Legko Ozelenim - компания, специализирующаяся на создании уникальных зеленых пространств для дома и офиса. Мы добавляем вашему окружению жизнь, делая его более зеленым с 20** года.</p>
+            </div>
+            <div class="footer-section footer-contact">
+                <h3>Контакты</h3>
+                <p><i>📍</i> г.Астана. ул Е 314, 20\1 жк Айнабулак</p>
+                <p><i>📞</i> +7 (776) 138 3956</p>
+                <p><i>✉️</i> legkoozelenim@gmail.com</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/legko_ozelenim/" target="_blank" class="icon instagram" aria-label="Instagram">
+  <!-- Instagram SVG -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.3 2.3.5.6.2 1 .5 1.4 1 .4.4.8.8 1 1.4.2.4.4 1.1.5 2.3.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.9-.5 2.3-.2.6-.5 1-1 1.4-.4.4-.8.8-1.4 1-.4.2-1.1.4-2.3.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.3-2.3-.5-.6-.2-1-.5-1.4-1-.4-.4-.8-.8-1-1.4-.2-.4-.4-1.1-.5-2.3C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.9.5-2.3.2-.6.5-1 1-1.4.4-.4.8-.8 1.4-1 .4-.2 1.1-.4 2.3-.5C8.4 2.2 8.8 2.2 12 2.2m0-2.2C8.7 0 8.3 0 7 0.1 5.7 0.2 4.7 0.4 4 0.7 3.2 1 2.5 1.5 1.9 2.1c-.6.6-1.1 1.3-1.4 2.1-.3.7-.5 1.7-.6 3C0 8.5 0 8.9 0 12s0 3.5.1 4.8c.1 1.3.3 2.3.6 3 .3.8.8 1.5 1.4 2.1.6.6 1.3 1.1 2.1 1.4.7.3 1.7.5 3 .6 1.3.1 1.7.1 4.9.1s3.6 0 4.9-.1c1.3-.1 2.3-.3 3-.6.8-.3 1.5-.8 2.1-1.4.6-.6 1.1-1.3 1.4-2.1.3-.7.5-1.7.6-3 .1-1.3.1-1.7.1-4.9s0-3.6-.1-4.9c-.1-1.3-.3-2.3-.6-3-.3-.8-.8-1.5-1.4-2.1-.6-.6-1.3-1.1-2.1-1.4-.7-.3-1.7-.5-3-.6C15.6 0 15.2 0 12 0z"/>
+    <path d="M12 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zm0 10.3a4.1 4.1 0 1 1 0-8.2 4.1 4.1 0 0 1 0 8.2zM18.4 4.6a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"/>
+  </svg>
+</a>
+<a href="https://www.youtube.com/@legkoozelenim699" target="_blank" class="icon youtube" aria-label="YouTube">
+  <!-- YouTube SVG -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M23.5 6.2s-.2-1.7-.9-2.5c-.8-.9-1.7-.9-2.1-1C17.7 2.4 12 2.4 12 2.4h-.1s-5.7 0-8.5.3c-.4.1-1.3.1-2.1 1C.7 4.5.5 6.2.5 6.2S0 8.3 0 10.4v1.2c0 2.1.5 4.2.5 4.2s.2 1.7.9 2.5c.8.9 1.9.9 2.4 1 1.7.2 7.2.3 8.2.3h.1s5.7 0 8.5-.3c.4-.1 1.3-.1 2.1-1 .7-.8.9-2.5.9-2.5s.5-2.1.5-4.2v-1.2c0-2.1-.5-4.2-.5-4.2zM9.7 14.9V8.6l6.3 3.2-6.3 3.1z"/>
+  </svg>
+</a>
+
+<a href="https://www.tiktok.com/@legko_ozelenim" target="_blank" class="icon tiktok" aria-label="TikTok">
+  <!-- TikTok SVG -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12.6 2c.4 3.2 2.2 5 5.3 5.2v3.3c-1.5 0-2.8-.4-4-.9v6.5c0 3.1-2.1 5.5-5.2 5.9-3.2.4-6.1-1.8-6.5-4.9-.4-3.1 1.8-6.1 4.9-6.5.4 0 .8 0 1.2.1v3.5c-.3-.1-.6-.1-1-.1-1.4.2-2.4 1.4-2.2 2.8.1 1.4 1.4 2.4 2.8 2.2 1.2-.2 2-1.2 2-2.4V2h3.7z"/>
+  </svg>
+</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Часы работы</h3>
+                <p>Пн-Пт: 9:00 - 20:00</p>
+                <p>Сб: 10:00 - 18:00</p>
+                <p>Вс: выходной</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Legko Ozelenim. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
